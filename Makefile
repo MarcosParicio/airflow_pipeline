@@ -27,10 +27,20 @@ install_dependencies:
 	$(VENV_NAME)/bin/pip install --upgrade pip
 	$(VENV_NAME)/bin/pip install -r requirements.txt
 
-# Run
+# Run user_pipeline.py DAG
 run_user_pipeline:
 	@echo "Running user_pipeline DAG..."
 	. $(VENV_NAME)/bin/activate && airflow dags trigger user_pipeline
+
+# Run producer.py DAG
+run_producer:
+	@echo "Running producer DAG..."
+	. $(VENV_NAME)/bin/activate && airflow dags trigger producer
+
+# Run consumer.py DAG
+run_consumer:
+	@echo "Running consumer DAG..."
+	. $(VENV_NAME)/bin/activate && airflow dags trigger consumer
 
 # Clean virtual environment (optional)
 clean:
@@ -42,3 +52,5 @@ clean:
 # para limpiarlo: make clean
 # para desactivarlo: deactivate
 # para ejecutar el DAG user_pipeline: make run_user_pipeline
+# para ejecutar el DAG producer: make run_producer
+# para ejecutar el DAG consumer: make run_consumer
