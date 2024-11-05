@@ -1,0 +1,25 @@
+[2024-11-04T18:34:27.643+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_pipeline.load_users manual__2024-11-04T18:34:25.055406+00:00 [queued]>
+[2024-11-04T18:34:27.650+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_pipeline.load_users manual__2024-11-04T18:34:25.055406+00:00 [queued]>
+[2024-11-04T18:34:27.650+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2024-11-04T18:34:27.660+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): load_users> on 2024-11-04 18:34:25.055406+00:00
+[2024-11-04T18:34:27.664+0000] {standard_task_runner.py:57} INFO - Started process 84 to run task
+[2024-11-04T18:34:27.666+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'user_pipeline', 'load_users', 'manual__2024-11-04T18:34:25.055406+00:00', '--job-id', '845', '--raw', '--subdir', 'DAGS_FOLDER/user_pipeline.py', '--cfg-path', '/tmp/tmpoptdqhmm']
+[2024-11-04T18:34:27.667+0000] {standard_task_runner.py:85} INFO - Job 845: Subtask load_users
+[2024-11-04T18:34:27.700+0000] {task_command.py:415} INFO - Running <TaskInstance: user_pipeline.load_users manual__2024-11-04T18:34:25.055406+00:00 [running]> on host 2b06df56fdc4
+[2024-11-04T18:34:27.756+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_pipeline' AIRFLOW_CTX_TASK_ID='load_users' AIRFLOW_CTX_EXECUTION_DATE='2024-11-04T18:34:25.055406+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-04T18:34:25.055406+00:00'
+[2024-11-04T18:34:27.764+0000] {logging_mixin.py:151} INFO - Usuarios recibidos para cargar: [{'id': 1, 'full_name': 'John Doe', 'email': 'john.doe@example.com', 'age': 30}, {'id': 2, 'full_name': 'Jane Smith', 'email': 'jane.smith@example.com', 'age': 25}, {'id': 3, 'full_name': 'Alice Johnson', 'email': 'alice.johnson@example.com', 'age': 28}]
+[2024-11-04T18:34:27.767+0000] {taskinstance.py:1935} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/user_pipeline.py", line 77, in load_users
+    cursor.execute(insert_query, (user['id'], user['full_name'], user['email'], user['age']))
+psycopg2.errors.InvalidColumnReference: there is no unique or exclusion constraint matching the ON CONFLICT specification
+
+[2024-11-04T18:34:27.772+0000] {taskinstance.py:1398} INFO - Marking task as UP_FOR_RETRY. dag_id=user_pipeline, task_id=load_users, execution_date=20241104T183425, start_date=20241104T183427, end_date=20241104T183427
+[2024-11-04T18:34:27.783+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 845 for task load_users (there is no unique or exclusion constraint matching the ON CONFLICT specification
+; 84)
+[2024-11-04T18:34:27.800+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2024-11-04T18:34:27.811+0000] {taskinstance.py:2776} INFO - 0 downstream tasks scheduled from follow-on schedule check

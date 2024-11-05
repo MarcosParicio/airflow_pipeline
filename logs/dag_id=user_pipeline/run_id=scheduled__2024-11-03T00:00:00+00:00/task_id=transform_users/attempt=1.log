@@ -1,0 +1,30 @@
+[2024-11-04T18:37:50.610+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_pipeline.transform_users scheduled__2024-11-03T00:00:00+00:00 [queued]>
+[2024-11-04T18:37:50.617+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_pipeline.transform_users scheduled__2024-11-03T00:00:00+00:00 [queued]>
+[2024-11-04T18:37:50.617+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2024-11-04T18:37:50.631+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): transform_users> on 2024-11-03 00:00:00+00:00
+[2024-11-04T18:37:50.635+0000] {standard_task_runner.py:57} INFO - Started process 137 to run task
+[2024-11-04T18:37:50.637+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'user_pipeline', 'transform_users', 'scheduled__2024-11-03T00:00:00+00:00', '--job-id', '847', '--raw', '--subdir', 'DAGS_FOLDER/user_pipeline.py', '--cfg-path', '/tmp/tmphtf6rywg']
+[2024-11-04T18:37:50.638+0000] {standard_task_runner.py:85} INFO - Job 847: Subtask transform_users
+[2024-11-04T18:37:50.678+0000] {task_command.py:415} INFO - Running <TaskInstance: user_pipeline.transform_users scheduled__2024-11-03T00:00:00+00:00 [running]> on host 2b06df56fdc4
+[2024-11-04T18:37:50.741+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_pipeline' AIRFLOW_CTX_TASK_ID='transform_users' AIRFLOW_CTX_EXECUTION_DATE='2024-11-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-03T00:00:00+00:00'
+[2024-11-04T18:37:50.751+0000] {logging_mixin.py:151} INFO - Usuarios recibidos para transformar: [[1, 'John', 'Doe', 'john.doe@example.com', 30], [2, 'Jane', 'Smith', 'jane.smith@example.com', 25], [3, 'Alice', 'Johnson', 'alice.johnson@example.com', 28]]
+[2024-11-04T18:37:50.762+0000] {logging_mixin.py:151} INFO - Datos transformados: [{'id': 1, 'full_name': 'John Doe', 'email': 'john.doe@example.com', 'age': 30}, {'id': 2, 'full_name': 'Jane Smith', 'email': 'jane.smith@example.com', 'age': 25}, {'id': 3, 'full_name': 'Alice Johnson', 'email': 'alice.johnson@example.com', 'age': 28}]
+[2024-11-04T18:37:50.762+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-11-04T18:37:50.769+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=user_pipeline, task_id=transform_users, execution_date=20241103T000000, start_date=20241104T183750, end_date=20241104T183750
+[2024-11-04T18:37:50.810+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-11-04T18:37:50.826+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-04T18:48:49.570+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: user_pipeline.transform_users scheduled__2024-11-03T00:00:00+00:00 [queued]>
+[2024-11-04T18:48:49.577+0000] {taskinstance.py:1157} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: user_pipeline.transform_users scheduled__2024-11-03T00:00:00+00:00 [queued]>
+[2024-11-04T18:48:49.577+0000] {taskinstance.py:1359} INFO - Starting attempt 1 of 2
+[2024-11-04T18:48:49.638+0000] {taskinstance.py:1380} INFO - Executing <Task(PythonOperator): transform_users> on 2024-11-03 00:00:00+00:00
+[2024-11-04T18:48:49.642+0000] {standard_task_runner.py:57} INFO - Started process 157 to run task
+[2024-11-04T18:48:49.645+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'user_pipeline', 'transform_users', 'scheduled__2024-11-03T00:00:00+00:00', '--job-id', '859', '--raw', '--subdir', 'DAGS_FOLDER/user_pipeline.py', '--cfg-path', '/tmp/tmpdm8k7bi0']
+[2024-11-04T18:48:49.645+0000] {standard_task_runner.py:85} INFO - Job 859: Subtask transform_users
+[2024-11-04T18:48:49.681+0000] {task_command.py:415} INFO - Running <TaskInstance: user_pipeline.transform_users scheduled__2024-11-03T00:00:00+00:00 [running]> on host 9b393f9117ee
+[2024-11-04T18:48:49.735+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='user_pipeline' AIRFLOW_CTX_TASK_ID='transform_users' AIRFLOW_CTX_EXECUTION_DATE='2024-11-03T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-03T00:00:00+00:00'
+[2024-11-04T18:48:49.744+0000] {logging_mixin.py:151} INFO - Usuarios recibidos para transformar: [[1, 'John', 'Doe', 'john.doe@example.com', 30], [2, 'Jane', 'Smith', 'jane.smith@example.com', 25], [3, 'Alice', 'Johnson', 'alice.johnson@example.com', 28]]
+[2024-11-04T18:48:49.754+0000] {logging_mixin.py:151} INFO - Datos transformados: [{'id': 1, 'full_name': 'John Doe', 'email': 'john.doe@example.com', 'age': 30}, {'id': 2, 'full_name': 'Jane Smith', 'email': 'jane.smith@example.com', 'age': 25}, {'id': 3, 'full_name': 'Alice Johnson', 'email': 'alice.johnson@example.com', 'age': 28}]
+[2024-11-04T18:48:49.754+0000] {python.py:194} INFO - Done. Returned value was: None
+[2024-11-04T18:48:49.760+0000] {taskinstance.py:1398} INFO - Marking task as SUCCESS. dag_id=user_pipeline, task_id=transform_users, execution_date=20241103T000000, start_date=20241104T184849, end_date=20241104T184849
+[2024-11-04T18:48:49.779+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-11-04T18:48:49.792+0000] {taskinstance.py:2776} INFO - 1 downstream tasks scheduled from follow-on schedule check
