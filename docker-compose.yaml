@@ -104,6 +104,32 @@ services:
       timeout: 10s
       retries: 5
 
+  airflow-worker-2:
+    image: apache/airflow:2.7.1
+    restart: always
+    depends_on:
+      - airflow-scheduler
+      - postgres
+      - redis
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - AIRFLOW__CORE__EXECUTOR=CeleryExecutor
+      - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres/${POSTGRES_DB}
+      - AIRFLOW__CELERY__BROKER_URL=redis://redis:6379/0
+      - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres/${POSTGRES_DB}
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+    command: "airflow celery worker"
+    healthcheck:
+      test: ["CMD-SHELL", "celery -A airflow.providers.celery.executors.celery_executor inspect ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
   flower:
     image: mher/flower
     command: celery --broker=redis://redis:6379/0 flower
