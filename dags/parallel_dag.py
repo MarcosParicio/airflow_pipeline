@@ -33,7 +33,8 @@ with DAG('parallel_dag', default_args=default_args, schedule='@daily') as dag:
     
     transform = BashOperator(
         task_id='transform',
-        bash_command='sleep 10'
+        queue='high_cpu',
+        bash_command='sleep 30'
     )
     
     extract_a >> load_a
