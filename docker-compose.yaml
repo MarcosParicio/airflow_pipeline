@@ -123,7 +123,7 @@ services:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
-    command: "airflow celery worker"
+    command: "airflow celery worker -q high_cpu"
     healthcheck:
       test: ["CMD-SHELL", "celery -A airflow.providers.celery.executors.celery_executor inspect ping"]
       interval: 30s
