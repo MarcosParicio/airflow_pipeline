@@ -15767,3 +15767,350 @@ File Path                             PID  Runtime      # DAGs    # Errors  Last
 /opt/airflow/dags/parallel_dag.py     118  0.01s             1           0  0.08s           2024-11-06T11:58:58
 /opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T11:58:58
 ================================================================================
+[2024-11-06T11:59:58.710+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T11:59:28
+/opt/airflow/dags/producer.py         133  0.01s             1           0  0.07s           2024-11-06T11:59:28
+/opt/airflow/dags/parallel_dag.py     132  0.01s             1           0  0.07s           2024-11-06T11:59:28
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T11:59:28
+================================================================================
+[2024-11-06T12:00:28.945+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T11:59:58
+/opt/airflow/dags/producer.py         146  0.00s             1           0  0.07s           2024-11-06T11:59:58
+/opt/airflow/dags/parallel_dag.py     145  0.01s             1           0  0.07s           2024-11-06T11:59:58
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T11:59:58
+================================================================================
+[2024-11-06T12:00:59.223+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:00:29
+/opt/airflow/dags/producer.py         159  0.00s             1           0  0.07s           2024-11-06T12:00:29
+/opt/airflow/dags/parallel_dag.py     158  0.01s             1           0  0.07s           2024-11-06T12:00:29
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:00:29
+================================================================================
+[2024-11-06T12:01:29.523+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:00:59
+/opt/airflow/dags/producer.py         172  0.00s             1           0  0.07s           2024-11-06T12:00:59
+/opt/airflow/dags/parallel_dag.py     171  0.01s             1           0  0.07s           2024-11-06T12:00:59
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T12:00:59
+================================================================================
+[2024-11-06T12:01:57.831+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-11-06T12:01:57.834+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2024-11-06T12:01:59.880+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:01:29
+/opt/airflow/dags/producer.py         185  0.00s             1           0  0.07s           2024-11-06T12:01:29
+/opt/airflow/dags/parallel_dag.py     184  0.01s             1           0  0.07s           2024-11-06T12:01:29
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T12:01:29
+================================================================================
+[2024-11-06T12:02:30.057+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:02:00
+/opt/airflow/dags/producer.py         189  0.00s             1           0  0.07s           2024-11-06T12:01:59
+/opt/airflow/dags/parallel_dag.py     188  0.01s             1           0  0.07s           2024-11-06T12:01:59
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:02:00
+================================================================================
+[2024-11-06T12:03:00.282+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:02:30
+/opt/airflow/dags/producer.py         202  0.00s             1           0  0.08s           2024-11-06T12:02:30
+/opt/airflow/dags/parallel_dag.py     201  0.01s             1           0  0.08s           2024-11-06T12:02:30
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:02:30
+================================================================================
+[2024-11-06T12:03:30.528+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.08s           2024-11-06T12:03:00
+/opt/airflow/dags/producer.py         215  0.00s             1           0  0.07s           2024-11-06T12:03:00
+/opt/airflow/dags/parallel_dag.py     214  0.01s             1           0  0.07s           2024-11-06T12:03:00
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T12:03:00
+================================================================================
+[2024-11-06T12:04:00.853+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:03:30
+/opt/airflow/dags/producer.py         228  0.00s             1           0  0.07s           2024-11-06T12:03:30
+/opt/airflow/dags/parallel_dag.py     227  0.01s             1           0  0.07s           2024-11-06T12:03:30
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:03:30
+================================================================================
+[2024-11-06T12:04:31.027+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:04:01
+/opt/airflow/dags/producer.py         241  0.00s             1           0  0.07s           2024-11-06T12:04:00
+/opt/airflow/dags/parallel_dag.py     240  0.01s             1           0  0.08s           2024-11-06T12:04:00
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:04:00
+================================================================================
+[2024-11-06T12:05:01.361+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:04:31
+/opt/airflow/dags/producer.py         254  0.00s             1           0  0.07s           2024-11-06T12:04:31
+/opt/airflow/dags/parallel_dag.py     253  0.01s             1           0  0.07s           2024-11-06T12:04:31
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:04:31
+================================================================================
+[2024-11-06T12:05:31.638+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:05:01
+/opt/airflow/dags/producer.py         267  0.00s             1           0  0.07s           2024-11-06T12:05:01
+/opt/airflow/dags/parallel_dag.py     266  0.01s             1           0  0.07s           2024-11-06T12:05:01
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:05:01
+================================================================================
+[2024-11-06T12:06:01.829+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.08s           2024-11-06T12:05:31
+/opt/airflow/dags/producer.py         280  0.00s             1           0  0.08s           2024-11-06T12:05:31
+/opt/airflow/dags/parallel_dag.py     279  0.01s             1           0  0.08s           2024-11-06T12:05:31
+/opt/airflow/dags/consumer.py                                1           0  0.09s           2024-11-06T12:05:31
+================================================================================
+[2024-11-06T12:06:32.102+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:06:01
+/opt/airflow/dags/producer.py         293  0.00s             1           0  0.07s           2024-11-06T12:06:01
+/opt/airflow/dags/parallel_dag.py     292  0.01s             1           0  0.07s           2024-11-06T12:06:01
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:06:01
+================================================================================
+[2024-11-06T12:06:58.332+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-11-06T12:06:58.334+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2024-11-06T12:07:02.428+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.08s           2024-11-06T12:06:32
+/opt/airflow/dags/producer.py         306  0.00s             1           0  0.08s           2024-11-06T12:06:32
+/opt/airflow/dags/parallel_dag.py     305  0.01s             1           0  0.08s           2024-11-06T12:06:32
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:06:32
+================================================================================
+[2024-11-06T12:07:32.599+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.06s           2024-11-06T12:07:02
+/opt/airflow/dags/producer.py         319  0.00s             1           0  0.07s           2024-11-06T12:07:02
+/opt/airflow/dags/parallel_dag.py     318  0.01s             1           0  0.07s           2024-11-06T12:07:02
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T12:07:02
+================================================================================
+[2024-11-06T12:08:02.766+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.06s           2024-11-06T12:07:32
+/opt/airflow/dags/producer.py         332  0.00s             1           0  0.07s           2024-11-06T12:07:32
+/opt/airflow/dags/parallel_dag.py     331  0.01s             1           0  0.07s           2024-11-06T12:07:32
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T12:07:32
+================================================================================
+[2024-11-06T12:08:32.940+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:08:02
+/opt/airflow/dags/producer.py         345  0.00s             1           0  0.07s           2024-11-06T12:08:02
+/opt/airflow/dags/parallel_dag.py     344  0.01s             1           0  0.07s           2024-11-06T12:08:02
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:08:02
+================================================================================
+[2024-11-06T12:09:03.153+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:08:33
+/opt/airflow/dags/producer.py         358  0.00s             1           0  0.07s           2024-11-06T12:08:33
+/opt/airflow/dags/parallel_dag.py     357  0.01s             1           0  0.07s           2024-11-06T12:08:33
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:08:33
+================================================================================
+[2024-11-06T12:09:33.369+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:09:03
+/opt/airflow/dags/producer.py         371  0.00s             1           0  0.08s           2024-11-06T12:09:03
+/opt/airflow/dags/parallel_dag.py     370  0.01s             1           0  0.08s           2024-11-06T12:09:03
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T12:09:03
+================================================================================
+[2024-11-06T12:10:03.574+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:09:33
+/opt/airflow/dags/producer.py         384  0.01s             1           0  0.07s           2024-11-06T12:09:33
+/opt/airflow/dags/parallel_dag.py     383  0.01s             1           0  0.07s           2024-11-06T12:09:33
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:09:33
+================================================================================
+[2024-11-06T12:10:33.745+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:10:03
+/opt/airflow/dags/producer.py         397  0.00s             1           0  0.08s           2024-11-06T12:10:03
+/opt/airflow/dags/parallel_dag.py     396  0.01s             1           0  0.07s           2024-11-06T12:10:03
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:10:03
+================================================================================
+[2024-11-06T12:11:03.858+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:10:33
+/opt/airflow/dags/producer.py         410  0.00s             1           0  0.07s           2024-11-06T12:10:33
+/opt/airflow/dags/parallel_dag.py     409  0.01s             1           0  0.07s           2024-11-06T12:10:33
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:10:33
+================================================================================
+[2024-11-06T12:11:34.062+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:11:04
+/opt/airflow/dags/producer.py         423  0.00s             1           0  0.07s           2024-11-06T12:11:03
+/opt/airflow/dags/parallel_dag.py     422  0.01s             1           0  0.07s           2024-11-06T12:11:03
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:11:03
+================================================================================
+[2024-11-06T12:11:59.184+0000] {manager.py:759} INFO - Searching for files in /opt/airflow/dags
+[2024-11-06T12:11:59.185+0000] {manager.py:762} INFO - There are 4 files in /opt/airflow/dags
+[2024-11-06T12:12:04.242+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:11:34
+/opt/airflow/dags/producer.py         436  0.00s             1           0  0.08s           2024-11-06T12:11:34
+/opt/airflow/dags/parallel_dag.py     435  0.01s             1           0  0.08s           2024-11-06T12:11:34
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:11:34
+================================================================================
+[2024-11-06T12:12:34.385+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:12:04
+/opt/airflow/dags/producer.py         449  0.00s             1           0  0.07s           2024-11-06T12:12:04
+/opt/airflow/dags/parallel_dag.py     448  0.01s             1           0  0.07s           2024-11-06T12:12:04
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:12:04
+================================================================================
+[2024-11-06T12:13:04.541+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:12:34
+/opt/airflow/dags/producer.py         462  0.00s             1           0  0.07s           2024-11-06T12:12:34
+/opt/airflow/dags/parallel_dag.py     461  0.01s             1           0  0.08s           2024-11-06T12:12:34
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T12:12:34
+================================================================================
+[2024-11-06T12:13:34.509+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:13:05
+/opt/airflow/dags/producer.py         475  0.00s             1           0  -0.10s          2024-11-06T12:13:04
+/opt/airflow/dags/parallel_dag.py     474  0.01s             1           0  -0.10s          2024-11-06T12:13:04
+/opt/airflow/dags/consumer.py                                1           0  0.08s           2024-11-06T12:13:04
+================================================================================
+[2024-11-06T12:14:04.696+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:13:35
+/opt/airflow/dags/producer.py         488  0.00s             1           0  0.07s           2024-11-06T12:13:34
+/opt/airflow/dags/parallel_dag.py     487  0.01s             1           0  0.07s           2024-11-06T12:13:34
+/opt/airflow/dags/consumer.py                                1           0  0.07s           2024-11-06T12:13:34
+================================================================================
+[2024-11-06T12:14:34.843+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:14:05
+/opt/airflow/dags/producer.py         501  0.00s             1           0  0.07s           2024-11-06T12:14:04
+/opt/airflow/dags/parallel_dag.py     500  0.01s             1           0  0.08s           2024-11-06T12:14:04
+/opt/airflow/dags/consumer.py                                1           0  0.08s           2024-11-06T12:14:04
+================================================================================
+[2024-11-06T12:15:05.030+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                             PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/user_pipeline.py                           1           0  0.07s           2024-11-06T12:14:35
+/opt/airflow/dags/producer.py         514  0.00s             1           0  0.07s           2024-11-06T12:14:34
+/opt/airflow/dags/parallel_dag.py     513  0.01s             1           0  0.07s           2024-11-06T12:14:34
+/opt/airflow/dags/consumer.py                                1           0  0.06s           2024-11-06T12:14:34
+================================================================================
