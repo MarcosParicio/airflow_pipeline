@@ -648,3 +648,23 @@
 [2024-11-05T15:08:15.221+0000] {logging_mixin.py:151} INFO - [2024-11-05T15:08:15.220+0000] {dag.py:2915} INFO - Sync 1 DAGs
 [2024-11-05T15:08:15.238+0000] {logging_mixin.py:151} INFO - [2024-11-05T15:08:15.238+0000] {dag.py:3696} INFO - Setting next_dagrun for user_pipeline to 2024-11-05T00:00:00+00:00, run_after=2024-11-06T00:00:00+00:00
 [2024-11-05T15:08:15.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/user_pipeline.py took 0.070 seconds
+[2024-11-05T15:08:46.127+0000] {processor.py:157} INFO - Started process (PID=594) to work on /opt/airflow/dags/user_pipeline.py
+[2024-11-05T15:08:46.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/user_pipeline.py for tasks to queue
+[2024-11-05T15:08:46.131+0000] {logging_mixin.py:151} INFO - [2024-11-05T15:08:46.130+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/user_pipeline.py
+[2024-11-05T15:08:46.137+0000] {logging_mixin.py:151} INFO - POSTGRES_USER: airflow
+[2024-11-05T15:08:46.137+0000] {logging_mixin.py:151} INFO - POSTGRES_PASSWORD: airflow
+[2024-11-05T15:08:46.137+0000] {logging_mixin.py:151} INFO - POSTGRES_DB: airflow
+[2024-11-05T15:08:46.142+0000] {processor.py:839} INFO - DAG(s) dict_keys(['user_pipeline']) retrieved from /opt/airflow/dags/user_pipeline.py
+[2024-11-05T15:08:46.163+0000] {logging_mixin.py:151} INFO - [2024-11-05T15:08:46.163+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-11-05T15:08:46.179+0000] {logging_mixin.py:151} INFO - [2024-11-05T15:08:46.178+0000] {dag.py:3696} INFO - Setting next_dagrun for user_pipeline to 2024-11-05T00:00:00+00:00, run_after=2024-11-06T00:00:00+00:00
+[2024-11-05T15:08:46.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/user_pipeline.py took 0.069 seconds
+[2024-11-05T15:09:17.144+0000] {processor.py:157} INFO - Started process (PID=606) to work on /opt/airflow/dags/user_pipeline.py
+[2024-11-05T15:09:17.145+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/user_pipeline.py for tasks to queue
+[2024-11-05T15:09:17.147+0000] {logging_mixin.py:151} INFO - [2024-11-05T15:09:17.147+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/user_pipeline.py
+[2024-11-05T15:09:17.152+0000] {logging_mixin.py:151} INFO - POSTGRES_USER: airflow
+[2024-11-05T15:09:17.152+0000] {logging_mixin.py:151} INFO - POSTGRES_PASSWORD: airflow
+[2024-11-05T15:09:17.152+0000] {logging_mixin.py:151} INFO - POSTGRES_DB: airflow
+[2024-11-05T15:09:17.158+0000] {processor.py:839} INFO - DAG(s) dict_keys(['user_pipeline']) retrieved from /opt/airflow/dags/user_pipeline.py
+[2024-11-05T15:09:17.178+0000] {logging_mixin.py:151} INFO - [2024-11-05T15:09:17.178+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2024-11-05T15:09:17.193+0000] {logging_mixin.py:151} INFO - [2024-11-05T15:09:17.193+0000] {dag.py:3696} INFO - Setting next_dagrun for user_pipeline to 2024-11-05T00:00:00+00:00, run_after=2024-11-06T00:00:00+00:00
+[2024-11-05T15:09:17.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/user_pipeline.py took 0.067 seconds
