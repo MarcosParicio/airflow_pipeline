@@ -15,7 +15,7 @@ class ElasticHook(BaseHook):
         if conn.host:
             hosts = conn.host.split(',')
         if conn.port:
-            conn_config['port'] = int(conn.port)
+            hosts = [f"http://{host}:{conn.port}" for host in hosts]  # Asegúrate de incluir el esquema 'http://'
         if conn.login:
             conn_config['http_auth'] = (conn.login, conn.password)
 
