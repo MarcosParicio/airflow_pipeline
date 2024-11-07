@@ -31858,3 +31858,31 @@ File Path                                     PID  Runtime      # DAGs    # Erro
 /opt/airflow/dags/parallel_dag.py                                    1           0  0.06s           2024-11-07T12:49:27
 /opt/airflow/dags/consumer.py                                        1           0  0.06s           2024-11-07T12:49:27
 ================================================================================
+[2024-11-07T12:50:27.743+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/xcom_dag.py                 170  0.01s             1           0  0.07s           2024-11-07T12:49:57
+/opt/airflow/dags/group_dag_task_groups.py    171  0.00s             1           0  0.07s           2024-11-07T12:49:57
+/opt/airflow/dags/user_pipeline.py                                   1           0  0.07s           2024-11-07T12:49:57
+/opt/airflow/dags/group_dag.py                                       1           0  0.06s           2024-11-07T12:49:57
+/opt/airflow/dags/producer.py                                        1           0  0.06s           2024-11-07T12:49:57
+/opt/airflow/dags/parallel_dag.py                                    1           0  0.06s           2024-11-07T12:49:57
+/opt/airflow/dags/consumer.py                                        1           0  0.06s           2024-11-07T12:49:57
+================================================================================
+[2024-11-07T12:50:58.221+0000] {manager.py:893} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                     PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/xcom_dag.py                 186  0.01s             1           0  0.08s           2024-11-07T12:50:27
+/opt/airflow/dags/group_dag_task_groups.py    187  0.00s             1           0  0.07s           2024-11-07T12:50:27
+/opt/airflow/dags/user_pipeline.py                                   1           0  0.07s           2024-11-07T12:50:28
+/opt/airflow/dags/group_dag.py                                       1           0  0.08s           2024-11-07T12:50:27
+/opt/airflow/dags/producer.py                                        1           0  0.08s           2024-11-07T12:50:27
+/opt/airflow/dags/parallel_dag.py                                    1           0  0.08s           2024-11-07T12:50:27
+/opt/airflow/dags/consumer.py                                        1           0  0.07s           2024-11-07T12:50:28
+================================================================================
