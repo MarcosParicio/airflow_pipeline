@@ -40,7 +40,7 @@ services:
       - AIRFLOW__CELERY__RESULT_BACKEND=db+postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres/${POSTGRES_DB}
       - AIRFLOW__WEBSERVER__EXPOSE_CONFIG=True
     ports:
-      - "8080:8080"
+      - "8081:8080"  # Cambiado de 8080:8080 a 8081:8080 ABRIR EN EL NAVEGADOR http://localhost:8081
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
